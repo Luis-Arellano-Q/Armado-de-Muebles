@@ -1,0 +1,22 @@
+/* *** header ****** */
+.logo a {
+    font-size: 2.4rem;
+}
+/* ****** nosotros **** */
+.about {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr ;
+}
+.article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+}
+/* ************* servicios realizados ***** */
+.muebles-verticales {
+    width: calc(100vw * 3);
+}
+.muebles-horizontales {
+    width: calc(100vw * 1.5);
+}

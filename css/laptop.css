@@ -1,0 +1,63 @@
+/* ******* header ****** */
+.menu-btn {
+    display: none;
+}
+.menu {
+    position: static;
+    width: auto;
+    opacity: 1;
+    flex-direction: row;
+    pointer-events: auto;
+}
+.menu a {
+    padding: 0 1rem;
+}
+.menu a:last-child {
+    padding-right: 0;
+}
+
+.menu a:hover {
+    background-color: transparent;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+/* ***** servicios realizados ***** */
+.works {
+    padding-top: 70px;
+}
+.muebles-verticales {
+    width: calc(100vw * 2);
+}
+.muebles-horizontales {
+    width: calc(100vw);
+}
+.slide-2::-webkit-scrollbar {
+    background-color:white;
+    height: 5px;
+  }
+  .slide-2::-webkit-scrollbar-thumb {
+    background-color: white;
+  }
+
+/* ****** contacto ****** */
+.contact article {
+    width: max-content;
+    margin: calc(40vh - 170px) auto; 
+}
+.contact {
+    height: 85vh;
+}
+/* ******* footer ****** */
+footer {
+    padding: 10px;
+    position: static;
+}
+footer p {
+    font-size: 2rem;
+}
+footer p a {
+    font-size: 2.4rem;
+}
