@@ -34,13 +34,13 @@
 .muebles-horizontales {
     width: calc(100vw * 1.25);
 }
-/* .slide-2::-webkit-scrollbar {
-    background-color:white;
+.slide-2::-webkit-scrollbar {
+    background-color: #15b73457;
     height: 5px;
   }
   .slide-2::-webkit-scrollbar-thumb {
-    background-color: white;
-  } */
+    background-color: #55cd6c;
+  }
 
 /* ****** contacto ****** */
 .contact article {
