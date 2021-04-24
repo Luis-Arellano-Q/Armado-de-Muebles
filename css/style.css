@@ -263,7 +263,7 @@ a  {
     background-image: url("../assets/img/v-ropero.jpg");
 }
 .muebles-horizontales {
-    width: calc(100vw * 3);
+    width: calc(100vw * 4);
     display: flex;
     height: 250px;
     justify-content: space-around;
@@ -292,6 +292,9 @@ a  {
 }
 .muebles-horizontales .mueble-3 {
     background-image: url("../assets/img/h-escritorio-gamer.jpg");
+}
+.muebles-horizontales .mueble-4 {
+    background-image: url("../assets/img/centro-de-entretenimiento.jpg");
 }
 
 /* ************ scroll bar ********** */
