@@ -32,15 +32,15 @@
     width: calc(100vw * 2);
 }
 .muebles-horizontales {
-    width: calc(100vw * 1.25);
+    width: calc(100vw * 1.33);
 }
-.slide-2::-webkit-scrollbar {
+/* .slide-2::-webkit-scrollbar {
     background-color: #15b73457;
     height: 5px;
   }
   .slide-2::-webkit-scrollbar-thumb {
     background-color: #55cd6c;
-  }
+  } */
 
 /* ****** contacto ****** */
 .contact article {
