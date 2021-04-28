@@ -380,6 +380,7 @@ a  {
 }
 .contact-info_telf {
     color: var(--first-color);
+    font-weight: bold;
 }
 .contact-info div a span{
     position: relative;
