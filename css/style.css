@@ -378,6 +378,9 @@ a  {
     border-radius: 5px;
     font-size: 1.5rem;
 }
+.contact-info_telf {
+    color: var(--first-color);
+}
 .contact-info div a span{
     position: relative;
 }
