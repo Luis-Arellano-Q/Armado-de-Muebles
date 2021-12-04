@@ -171,7 +171,7 @@ a  {
 
 /* efecto escritura */
 .services {
-    color:aqua;
+    color:var(--first-color);
     font-style: normal;
 }
 
