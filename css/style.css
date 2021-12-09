@@ -5,7 +5,7 @@
 }
 :root{
     --first-color: #55cd6c;
-    --first-alpha-color: rgba(217,0,98, 0.75);
+    --first-alpha-color: #55cd6c40;
     --second-color: #14192d;
     --second-alpha-color: rgba(20,25,45, 0.75);
     --third-color: #501464;
@@ -475,6 +475,18 @@ a  {
 }
 .pay-item h2 {
     margin: 10px 0;
+}
+
+.pay-info {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.8rem;
+    border-radius: 50px;
+    background-color: var(--first-alpha-color);
+    width: 250px;
+    padding: 3px;
+    height: 55px;
+    font-weight: 500;
 }
 
 /* ********** footer ***** */
