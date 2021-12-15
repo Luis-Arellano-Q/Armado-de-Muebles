@@ -72,19 +72,25 @@
 }
 .div_contacto-pago {
     margin-bottom: 0;
-    grid-template-rows:20% repeat(3,1fr);
-    height: 120vh;
+    height: 85vh;
 }
 .contact {
     grid-row: 1 / 4;
     grid-column: 1 / 2;
 }
-.metodo-pay {
+.contact__chat-svg {
+    transform: scale(1.3);
+}
+/* .metodo-pay {
     grid-row: 2 / 4;
     grid-column: 2 / 3;
 }
 .metodo-pay {
     margin-top: 0;
+} */
+
+.custom-shape-divider-bottom-1638230724 svg {
+    height: 500px;
 }
 
 /* ******* footer ****** */

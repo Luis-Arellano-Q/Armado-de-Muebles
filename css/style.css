@@ -5,7 +5,7 @@
 }
 :root{
     --first-color: #55cd6c;
-    --first-alpha-color: #55cd6c40;
+    --first-alpha-color: #55cd6c99;
     --second-color: #14192d;
     --second-alpha-color: rgba(20,25,45, 0.75);
     --third-color: #501464;
@@ -346,6 +346,9 @@ a  {
     background-color: var(--second-color);
     opacity: 0.1;
 } */
+.div_contacto-pago {
+    height: 115vh;
+}
 .contact {
     position: relative;
     text-align: center;
@@ -456,8 +459,9 @@ a  {
 .custom-shape-divider-bottom-1638230724 svg {
     display: none;
 }
-.metodo-pay {
+/* .metodo-pay {
     margin: 50px 0 100px 0;
+    display: none;
 }
 .pay-item {
     text-align: center;
@@ -487,7 +491,7 @@ a  {
     padding: 3px;
     height: 55px;
     font-weight: 500;
-}
+} */
 
 /* ********** footer ***** */
 footer {
