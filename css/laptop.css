@@ -49,7 +49,7 @@
 }
 /* ***** nosotros******** */
 .about__container__cards {
-    grid-template-columns: repeat(4,25%);
+    grid-template-columns: repeat(3,33%);
 }
 .about__container__cards h2 {
     grid-column: span 4;
