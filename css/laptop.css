@@ -8,6 +8,7 @@
     opacity: 1;
     flex-direction: row;
     pointer-events: auto;
+    height: 30px;
 }
 .menu a {
     padding: 0 1rem;
@@ -49,7 +50,7 @@
 }
 /* ***** nosotros******** */
 .about__container__cards {
-    grid-template-columns: repeat(3,33%);
+    grid-template-columns: repeat(4,25%);
 }
 .about__container__cards h2 {
     grid-column: span 4;

@@ -4,7 +4,7 @@
 }
 /* ****** nosotros **** */
 .about {
-    height: max-content;
+    height: 100vh;
     display: grid;
     grid-template-rows: 1fr ;
 }
@@ -22,7 +22,6 @@
     grid-column: span 2;
 }
 .about__container__cards .card_3 {
-    grid-column: span 2;
     max-width: fit-content;
 }
 /* ******** division de contancto y pago */

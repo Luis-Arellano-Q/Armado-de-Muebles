@@ -49,16 +49,27 @@ a  {
     background-color: var(--second-color);
 }
 
+
 .header > .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+}
+.logo {
+    display: flex;
 }
 .logo a {
     color: var(--first-color);
     font-weight: bold;
     font-size: 1.8rem;
     text-decoration: none;
+}
+.logo-item{
+    height: 60px;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+.logo-item img {
+    height: 70%;
 }
 
 /* ************ bar menu ********** */
@@ -347,7 +358,8 @@ a  {
     opacity: 0.1;
 } */
 .div_contacto-pago {
-    height: 115vh;
+    padding-top: 1px;
+    height: 120vh;
 }
 .contact {
     position: relative;
@@ -418,6 +430,14 @@ a  {
 }
 .contact-info_whatsapp:hover {
     transform:scale(1.1);
+}
+.contact-info_whatsapp {
+    animation: latido 3s linear infinite;
+}
+@keyframes latido {
+    0%{transform:scale(1);}
+    50%{transform: scale(1.1);}
+    100%{transform:scale(1);}
 }
 .contact-info div {
     padding: 15px 10px;
