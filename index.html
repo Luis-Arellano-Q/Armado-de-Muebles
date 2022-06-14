@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- tipo de letra traida de google fonts (DM Sans) -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+
     <meta name="robots" content="index-follow">
     <meta name="description" content="Servicio de armado, desarmado y reparación de muebles de todas las tiendas a toda lima metropolitana">
-    <link rel="canonical" href="https://luis-arellano-q.github.io/Servicio-de-armado-de-mueble/Muebles">
-    <!-- <link rel="favicon" href="/assets/favicon.png"> -->
-    <link rel="apple-touch-icon" href="">
+    <link rel="canonical" href="https://luis-arellano-q.github.io/Armado-de-Muebles/">
+    <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon">
+    <!-- <link rel="apple-touch-icon" href=""> -->
     <meta name="theme-color" content=" #55cd6c">
     <meta name="twitter.card" content="summary">
     <meta property="og:type" content="website">    
+
+    <!-- datos que aparecen al enviar el link de la pagina por redes -->
     <meta property="og:title" name="twitter.title" content="Armado de muebles">
-    <meta property="og:image" name="twitter.image" content="">
-    <meta property="og:url" name="twitter.url" content="https://luis-arellano-q.github.io/Servicio-de-armado-de-mueble/Muebles">
+    <meta property="og:image" name="twitter.image" content="https://drive.google.com/uc?id=1B_rT_RJ6nB_QobVswq2L1q7BRbHzRDj0"> 
+    <meta property="og:url" name="twitter.url" content="https://luis-arellano-q.github.io/Armado-de-Muebles/">
     <meta property="og:description"  name="twitter.description" content="Servicio de armado, desarmado y reparación de muebles de todas las tiendas a toda lima metropolitana">
+
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)">
     <link rel="stylesheet" href="./css/laptop.css" media="(min-width: 1024px)">
     <title>Armado de muebles</title>
+
     <!-- Global site tag (gtag.js) - Google Ads: 664887275 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-664887275"></script>
     <script>
@@ -35,11 +42,25 @@
     <script>
         gtag('event', 'conversion', {'send_to': 'AW-664887275/Pe35CIKg1_oBEOu_hb0C'});
     </script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QQWQ2HSJJS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-QQWQ2HSJJS');
+    </script>
+
 </head>
 <body>
     <header class="header">
         <section class="container">
             <div class="logo">
+                <div class="logo-item">
+                    <img src="https://drive.google.com/uc?id=1lr_xaAERAJ_JY3bdcOjPXoe_2dN8Wzqk" alt="Logo, martillo y destornillador">
+                </div>
                 <a href="index.html">Armado de muebles</a>
             </div>
             <button class="menu-btn">
@@ -48,8 +69,8 @@
             </button>
             <nav class="menu" class="is-active">
                 <a href="#inicio">Inicio</a>
-                <a href="#acerca">Nosotros</a>
-                <a href="#trabajos">Servicios Realizados</a>
+                <a href="#acerca">Nosotros y Servicios</a>
+                <a href="#trabajos">Trabajos</a>
                 <a href="#contacto">Contacto</a>
             </nav>
         </section>
@@ -57,82 +78,167 @@
     <main>
         <section class="home" id="inicio">
             <article class="home__img-content">
-                <aside>
-                    <div class="home__title">
-                        <h1>Servicio <br> de armado</h1>
-                        <button class="home__btn"><a href="#contacto">Contactanos</a></button>
-                    </div> 
-                </aside>
             </article>
+            <article class="home__img-content-two">
+            </article>
+            <aside class="another__img-content">
+            </aside>
+            <div class="home__title">
+                <!-- El span con la clase typed es para que la libreria(typed.js) lo reconozca -->
+                <!-- <h1>Servicios de <br> <span class="typed"></span><br>de muebles</h1> -->
+                <h1><br> <span class="typed"></span><br></h1>
+                <div id="typed-strings">
+                    <p>Servicios de <br><i class="services">armado</i><br> de muebles</p>
+                    <p>Servicios de <br><i class="services">desarmado</i><br> de muebles</p>
+                    <p>Servicios de <br><i class="services">reparación</i><br> de muebles</p>
+                    <p>Servicios de <br><i class="services">fabricación</i><br> de muebles</p>
+                    <!-- <p>Servicios de <br><i class="services">fabricación</i><br> de muebles</p> -->
+                </div>
+                <button class="home__btn"><a href="#contacto">Contactanos</a></button>
+            </div>    
         </section>
         <section class="about " id="acerca">
             <article class="article container">
-                    <section class="about__us">
+                <section class="about__us">
                     <h2 class="section-title">Nosotros</h2>
-                    <p>Ofrecemos un servicio de calidad, detalle y eficiencia con los tecnicos capacitados y preparados para armar, desarmar y reparar los muebles de todas las tiendas, realizando el trabajo con profesionalismo pensado siempre en su comodidad. Atendemos a todos los distritos de Lima Metropolitana con puntualidad y compromiso. </p>
+                    <p>Brindamos el servicio de armado, desarmado y reparación de los muebles de todas las tiendas con los tecnicos capacitados y preparados. Pensando en su comodidad realizamos el servicio con eficiencia, para que pueda disfrutar de su mueble y su hogar.</p>
                 </section>
                 <section class="about__logos">
-                    <div class="maestro rect"><img src="./assets/icons/maestro.png" alt="logo de la tienda maestro"></div>
-                    <div class="tottus box"><img src="./assets/icons/tottua.jpg" alt="logo de la tienda tottus"></div>
-                    <div class="ripley rect"><img src="./assets/icons/ripley.png" alt="logo de la tienda de ripley"></div>
-                    <div class="sodimac box"><img src="./assets/icons/sodimac.png" alt="logo de la tienda sodimac"></div>
-                    <div class="pormart rect"><img src="./assets/icons/promart.png" alt="logo de la tienda promart"></div>
-                    <div class="saga box"><img src="./assets/icons/saga.png" alt="logo de la tienda saga falabella"></div>
+                    <div class="maestro rect"><img src="https://drive.google.com/uc?id=12afcMtKSKrA0pg7-qpaQZpEiMurXmZY_" alt="logo de la tienda maestro"></div>
+                    <div class="tottus box"><img src="https://drive.google.com/uc?id=1mRSAFYUj0GWQQTxaNP3PYEubE_X50bdU" alt="logo de la tienda tottus"></div>
+                    <div class="ripley rect"><img src="https://drive.google.com/uc?id=1AbgwZBt-VV4We1TRWNlhvz9vKNbHCN9p" alt="logo de la tienda de ripley"></div>
+                    <div class="sodimac box"><img src="https://drive.google.com/uc?id=1OLEEIItDuoQlski423jW4Vaq_SzO8MrP" alt="logo de la tienda sodimac"></div>
+                    <div class="pormart rect"><img src="https://drive.google.com/uc?id=1iUxXkbWkDT6ae6FfyybzFX2u6Lo5VMAV" alt="logo de la tienda promart"></div>
+                    <div class="saga box"><img src="https://drive.google.com/uc?id=1hWlxN0aJz-SbXcUoysyrha2JND2rGo0p" alt="logo de la tienda saga falabella"></div>
+                </section>
+                <section class="about__container__cards">
+                    <h2 class="section-title">Servicios</h2>
+                    <div class="about__card card_1">
+                        <h3>Armado</h3>
+                        <p>Profesionales armando su mueble con eficiencia.</p>
+                    </div>
+                    <div class="about__card card_2">
+                        <h3>Desarmado</h3>
+                        <p>No ponga en riesgo su mueble al mudarse o cambiandolo de ambiente.</p>
+                    </div>
+                    <div class="about__card card_3">
+                        <h3>Instalación</h3>
+                        <p>Instalmos racks, repisas, cortinas, entre otros.</p>
+                    </div>
+                    <div class="about__card">
+                        <h3>Fabricación</h3>
+                        <p>Fabricamos muebles de melamina a la medida y gusto.</p>
+                    </div>
                 </section>
             </article>
         </section>
-        <section class="works container" id="trabajos">
+        <section class="works" id="trabajos">
+            <div class="fondo"></div>
             <div>
                 <h2 class="section-title">Servicios realizados recientemente</h2>
             </div>
             <article class="slide-1 slide__scroll-bar">
+                <!-- <img src="https://drive.google.com/uc?id=12CJujvHnZ_Zb42WrJSG7ZhumHhyiSQna" alt="mueble"> -->
                 <section class="slide muebles-verticales">
-                    <div class="mueble-1"></div>
-                    <div class="mueble-2"></div>
-                    <div class="mueble-3"></div>
-                    <div class="mueble-4"></div>
-                    <div class="mueble-5"></div>
-                    <div class="mueble-6"></div>
+                    <img src="https://drive.google.com/uc?id=12CJujvHnZ_Zb42WrJSG7ZhumHhyiSQna" alt="centro de entretenimiento">
+                    <img src="https://drive.google.com/uc?id=1-9xjSFshMaz5XSYGNB6pd548hZKen4cZ" alt="centro de entretenimiento">
+                    <img src="https://drive.google.com/uc?id=1jbkrNJL8o3lacon6Ce3F79ZZXC5geeJ9" alt="centro de entretenimiento">
+                    <img src="https://drive.google.com/uc?id=1tdanvevhAIRdo3DkzC0dwl6bdAH7khpv" alt="centro de entretenimiento">
+                    <img src="https://drive.google.com/uc?id=18jFkimrCkJz2zqtvQOqHR91aQBH_64Hv" alt="centro de entretenimiento">
+                    <img src="https://drive.google.com/uc?id=1yVbHddHqFU1rD1yJ3uHL1g81jZEeuuw5" alt="comoda">
+                    <img src="https://drive.google.com/uc?id=1VFFhIsHaLPPR3dabKUjoqXkeMQsIwiBV" alt="comoda">
+                    <img src="https://drive.google.com/uc?id=18QnDJAOfhEjimJmxemgNpJGZ_9Skd7Ks" alt="escritorio">
+                    <img src="https://drive.google.com/uc?id=1bTMrtGfOCNa28IHSmeOyRDUJTenRPeZp" alt="estante gamer">
+                    <img src="https://drive.google.com/uc?id=1lX8Z0EqK1BUyo9GvfRkTjF3eP2NADDKt" alt="repostero">
+                    <img src="https://drive.google.com/uc?id=1G3sE-_LpZTYC0e4PgzM5uKtxSSDL7MuV" alt="repostero">
+                    <img src="https://drive.google.com/uc?id=1KYhDNc82FhBnDJPgJMeAkrK9KQtvo5xN" alt="repostero">
+                    <img src="https://drive.google.com/uc?id=1BZu9EVsjcEABKO7aOdaeqXY05ZxLs71X" alt="ropero de 6 puertas y 2 cajones">
+                    <img src="https://drive.google.com/uc?id=1iUInpCITPx4UrZwNbLK_ENBmqYGc3B4i" alt="ropero con espejo y 3 cajones">
+                    <img src="https://drive.google.com/uc?id=1m5HTB5OWgOMOvkDsEFKpAepVG2ag1YMw" alt="ropero de 6 puertas y 2 cajones">
+                    <img src="https://drive.google.com/uc?id=1Q2oR-f8f5YOJvJ_9mkuQVEbFsN7MXIAA" alt="ropero de 6 puertas y 2 cajones">
+                    <img src="https://drive.google.com/uc?id=1FE5QFEWdkbpvJ0BP8wxIJ2sRMt0u_B7U" alt="ropero de 6 puertas y 4 cajones">
+                    <img src="https://drive.google.com/uc?id=13kWuq2ACN8ojACuA2dXI8EdBZC5ZC30c" alt="ropero y comoda">
+                    <img src="https://drive.google.com/uc?id=1Tsy8dpRnNwN1WDqETqqCHzwLQnRnibTp" alt="ropero de 8 puertas y 4 cajones">
+                    <img src="https://drive.google.com/uc?id=1uIRyGGnWqhGSZqtJqy2n2qY5cqGdV1_A" alt="ropero de 6 puertas y 4 cajones">
+                    <img src="https://drive.google.com/uc?id=1DzU5zV3vxNlFiVm9UHAzAzJhkU3l6BWj" alt="centro de entretenimiento">
                 </section>
             </article>
             <article class="slide-2 slide__scroll-bar">
                 <section class="slide muebles-horizontales">
-                    <div class="mueble-1"></div>
-                    <div class="mueble-2"></div>
-                    <div class="mueble-3"></div>
-                    <div class="mueble-4"></div>
+                    <img src="https://drive.google.com/uc?id=1SJ5ebCtV9fqirU1PWNqkBIoV9ep740EL" alt="centro de entretenimiento">
+                    <img src="https://drive.google.com/uc?id=1C6s_uDMuJ9m0O_c3ufXny6M5aYXKXrR-" alt="centro de entretenimiento con puertas corredizas">
+                    <img src="https://drive.google.com/uc?id=1iTq3Vh4Jb1DxnRlWQot_zdGoGcSqz13-" alt="centro de entretenimiento con espejo">
+                    <img src="https://drive.google.com/uc?id=1KkiJXHoa_V6KdwhpPUgN3zvyNuU9HRUM" alt="centro de entretenimiento con espejo">
+                    <img src="https://drive.google.com/uc?id=1B_rT_RJ6nB_QobVswq2L1q7BRbHzRDj0" alt="centro de entretenimiento flotante">
+                    <img src="https://drive.google.com/uc?id=1TqWRy-eB4UbopobMlr7QxCiA05aUGDoe" alt="centro de entretenimiento flotante">
+                    <img src="https://drive.google.com/uc?id=1eQcWTg_XaQD9aJcf7L8LAbm3Ze9GVKpM" alt="escritorio gamer">
+                    <img src="https://drive.google.com/uc?id=1_wFKzXV1TdWEtqBfofexuSpm5c23mWFx" alt="parete baja del repostero">
+                    <img src="https://drive.google.com/uc?id=1ZXYl68h4DtOC3TUxoVe_DOzom0PeyX4S" alt="repostero flotante">
+                    <img src="https://drive.google.com/uc?id=1Ioro1IYcFuLZhPiYDmgnpZXr05drDJvf" alt="ropero de 8 puertas y 4 cajones con espejos">
+                    <img src="https://drive.google.com/uc?id=1xHGyP2pcV0Ox9qYYbowqxxc9_Qc6I9dx" alt="ropero de 8 puertas y 4 cajones con espejos">
+                    <img src="https://drive.google.com/uc?id=1Gj5Railx3p4ynstvVF-lMxdjHx2L2Qf1" alt="ropero de 8 puertas y 4 cajones con espejos">
+                    <img src="https://drive.google.com/uc?id=1pXokz6fniTPXLw5X31c6ZLuGLf4nGC_b" alt="ropero de 6 puertas y 2 cajones con espejos">
+                    <img src="https://drive.google.com/uc?id=188miysK-APHJY2chvdebKMyz0-H0u4_f" alt="zapateras">
                 </section>
             </article>
+            
         </section>
-        <section class="contact" id="contacto">
-                <div class = "waves"> 
-                    <svg data-name = "Layer 1" xmlns = "http://www.w3.org/2000/svg" viewBox = "0 0 1200 120 "preserveAspectRatio =" none "> 
-                        <path d =" M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172, 41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z "class =" shape-fill "> </path> 
-                    </svg> 
-                </div>
-                <article>
-                        <div class="contact-text">
-                        <h2 class="section-title">Contactanos</h2>
-                        <p>Tenemos tecnicos atendiendo a toda Lima metropolitana con:</p>
-                        <ul>
-                            <li>- Puntualidad</li>
-                            <li>- Responsabilidad</li>
-                            <li>- Profesionalismo</li>
-                        </ul>
-                        <p>Disfruta de tu mueble lo antes posible.</p>
-                    </div>
-                    <section class="contact-info">
-                        <div>Llamanos:</div>
-                        <div class="contact-info_telf">991365553</div>
-                        <div>Escribenos:</div>
-                        <div><a target="_blank" href="https://api.whatsapp.com/send?phone=51991365553&text=Hola,&nbsp;quiero&nbsp;un&nbsp;servicio&nbsp;de&nbsp;armado&nbsp;para&nbsp;el&nbsp;distrito&nbsp;de"><span><img src="./assets/icons/whatsapp.svg" alt="logo de whatsapp"></span> WHATSAPP</a></div>
-                    </section>
-                </article>
+        <section class="div_contacto-pago" id="contacto">
+            <div class="custom-shape-divider-bottom-1638230724">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <section class="contact" >
+                    <article>
+                            <div class="contact-text">
+                            <h2 class="section-title">Contactanos</h2>
+                            <p>Tenemos tecnicos atendiendo a toda Lima metropolitana con:</p>
+                            <ul>
+                                <li>- Puntualidad</li>
+                                <li>- Responsabilidad</li>
+                                <li>- Profesionalismo</li>
+                            </ul>
+                            <p>Disfruta de tu mueble lo antes posible.</p>
+                        </div>
+                        <section class="contact-info">
+                            <div>Llamanos:</div>
+                            <div class="contact-info_telf">991365553</div>
+                            <div>Escribenos:</div>
+                            <div class="contact-info_whatsapp"><a target="_blank" href="https://api.whatsapp.com/send?phone=51991365553&text=Hola,&nbsp;quiero&nbsp;un&nbsp;servicio&nbsp;de&nbsp;armado&nbsp;para&nbsp;el&nbsp;distrito&nbsp;de"><span><img src="./assets/icons/whatsapp.svg" alt="logo de whatsapp"></span> WHATSAPP</a></div>
+                        </section>
+                        
+                    </article>
+            </section>
+            <div class="contact__chat-svg">
+                <img src="https://drive.google.com/uc?id=1izKe79blukOkjbwgLEDQd4sR9a877sT9" alt="persona conversando con mensajes de texto">
+            </div>        
+            <!-- <section class="metodo-pay">
+                    <article class="pay">
+                        <h2 class="section-title">Metodos de pago</h2>
+                        <div class="pay-info">Paga al terminar el <br> servicio</div>
+                        <div class="pay-item pay-item-dif">
+                            <h2>En efectivo</h2>
+                            <img src="https://drive.google.com/uc?id=1-K28aYix8GMXrKN5gsC3ONtuJvqWrkzP" alt="">
+                        </div>
+                        <div class="pay-item">
+                            <h2>Atraves de:</h2>
+                            <img src="https://drive.google.com/uc?id=1PoWMGpJs6ryAkncWuFD8I1OzY1GNDSyA" alt="">
+                            <img src="https://drive.google.com/uc?id=1eCZLnQHAInhNVvcppyTtoKkRZG9zzeDe" alt="">
+                        </div>
+                        <div class="pay-item">
+                            <h2>Por tranferencia a:</h2>
+                            <img src="https://drive.google.com/uc?id=1HnXlVOcaff93KTlyPwHK9CngUMGY2Kq6" alt="">
+                            <img src="https://drive.google.com/uc?id=1MYonL32j0hcDHUB5O98zGM8vxds4BbxD" alt="">
+                        </div>
+                    </article>
+            </section> -->
         </section>
     </main>
     <footer>
         <p>Landing page created by: <a href="#">Luis Arellano</a></p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="./script.js"></script>
 
     <!-- Default Statcounter code for Armados muebles
@@ -151,4 +257,3 @@ https://luis-arellano-q.github.io/Armado-de-Muebles/ -->
     <!-- End of Statcounter Code -->
 </body>
 </html>
-

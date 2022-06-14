@@ -13,10 +13,72 @@
     grid-template-columns: 1fr 1fr;
     height: auto;
 }
-/* ************* servicios realizados ***** */
-.muebles-verticales {
-    width: calc(100vw * 3);
+.about__container__cards {
+    display: grid;
+    grid-column: 1 / span 2;
+    grid-template-columns: 50% 50%;
 }
-.muebles-horizontales {
-    width: calc(100vw * 2);
+.about__container__cards h2 {
+    grid-column: span 2;
 }
+.about__container__cards .card_3 {
+    max-width: fit-content;
+}
+/* ******** division de contancto y pago */
+.div_contacto-pago {
+    position: relative;
+    margin-bottom: 85px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 13% repeat(4,20vh);
+    height: 80vh;
+}
+.contact {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.contact__chat-svg {
+    transform: none;
+    grid-row: 2;
+}
+/* .metodo-pay {
+    grid-row: 2 / 5;
+    grid-column: 2 / 3;
+} */
+
+/* *********** wave ************** */
+.custom-shape-divider-bottom-1638230724 {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1638230724 svg {
+    position: relative;
+    display: none;
+    width: calc(164% + 1.3px);
+    height: 480px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1638230724 .shape-fill {
+    fill: var(--first-alpha-color);
+    opacity: 0.2;
+  }
+
+/** For tablet devices **/
+@media (min-width: 768px) {
+    .custom-shape-divider-bottom-1638230724 svg {
+        display: block;
+        width: calc(156% + 1.3px);
+        height: 480px;
+    }
+}
+/******** metodos de pago *********/
+/* .pay-item {
+    margin: 10px;
+} */
