@@ -164,7 +164,7 @@ a  {
 .home__title h1 {
     font-size: 7.5vh;
     color: var(--grey-light-color);
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
 }
 .home__btn {
     background-color: var(--first-color);

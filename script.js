@@ -21,12 +21,12 @@
 //codigo de efecto de maquina de escribir con la libreria typed.js
 
 const typed = new Typed('.typed', {
-    // strings:[
-    //     '<i class="services">armado</i>', 
-    //     '<i class="services">desarmado</i>',
-    //     '<i class="services">reparación</i>', 
-    //     '<i class="services">fabricación</i>'
-    // ],
+    strings:[
+        '<i class="services">armado</i>', 
+        '<i class="services">desarmado</i>',
+        '<i class="services">reparación</i>', 
+        '<i class="services">fabricación</i>'
+    ],
     stringsElement: '#typed-strings', //ID del elemento que contiene las cadenas de texto a mostrar
     typeSpeed: 75, //velocidad en milisegundos para poner una letra
     startDelay: 300, //tiempo de inicio de la animacion
