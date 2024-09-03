@@ -137,14 +137,14 @@ a  {
     
 }
 @keyframes change {
-    0%{background-image: url("./assets/new_img/joven-armando.jpg");opacity:1}
-    15%{background-image: url("./assets/new_img/joven-armando.jpg");opacity:0.5}
-    30%{background-image: url("./assets/new_img/comoda.jpeg");opacity:1}
-    45%{background-image: url("./assets/new_img/comoda.jpeg");opacity:0.5}
-    55%{background-image: url("./assets/new_img/centro-1 (2).jpg");opacity:1}
-    70%{background-image: url("./assets/new_img/centro-1 (2).jpg");opacity:0.5}
-    85%{background-image: url("./assets/new_img/escritorio1.jpeg");opacity:1}
-    100%{background-image: url("./assets/new_img/escritorio1.jpeg");opacity:0.5}
+    0%{background-image: url("../assets/new_img/joven-armando.jpg");opacity:1}
+    15%{background-image: url("../assets/new_img/joven-armando.jpg");opacity:0.5}
+    30%{background-image: url("../assets/new_img/comoda.jpeg");opacity:1}
+    45%{background-image: url("../assets/new_img/comoda.jpeg");opacity:0.5}
+    55%{background-image: url("../assets/new_img/centro-1 (2).jpg");opacity:1}
+    70%{background-image: url("../assets/new_img/centro-1 (2).jpg");opacity:0.5}
+    85%{background-image: url("../assets/new_img/escritorio1.jpeg");opacity:1}
+    100%{background-image: url("../assets/new_img/escritorio1.jpeg");opacity:0.5}
 }
 
 .another__img-content {
@@ -189,7 +189,7 @@ a  {
 /* ********* Nosotros ********** */
 .about {
     /* background-image: url("https://drive.google.com/uc?id=19uLlSU8BIyRhP7OyTq53Idgx9B7Nj-tW");*/
-    background-image: url("./assets/new_img/dibujo-armado-h.jpg");
+    background-image: url("../assets/new_img/dibujo-armando-h.jpg");
     /* background-size: cover; */
     background-attachment: fixed;
     /* width: 100%;
