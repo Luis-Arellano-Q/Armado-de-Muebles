@@ -137,14 +137,14 @@ a  {
     
 }
 @keyframes change {
-    0%{background-image: url("https://drive.google.com/uc?id=1Ci1fdyhDIT_BSPnAkizpQ-NIDtKa1ida");opacity:1}
-    15%{background-image: url("https://drive.google.com/uc?id=1Ci1fdyhDIT_BSPnAkizpQ-NIDtKa1ida");opacity:0.5}
-    30%{background-image: url("https://drive.google.com/uc?id=1yVbHddHqFU1rD1yJ3uHL1g81jZEeuuw5");opacity:1}
-    45%{background-image: url("https://drive.google.com/uc?id=1yVbHddHqFU1rD1yJ3uHL1g81jZEeuuw5");opacity:0.5}
-    55%{background-image: url("https://drive.google.com/uc?id=1-9xjSFshMaz5XSYGNB6pd548hZKen4cZ");opacity:1}
-    70%{background-image: url("https://drive.google.com/uc?id=1-9xjSFshMaz5XSYGNB6pd548hZKen4cZ");opacity:0.5}
-    85%{background-image: url("https://drive.google.com/uc?id=1Tsy8dpRnNwN1WDqETqqCHzwLQnRnibTp");opacity:1}
-    100%{background-image: url("https://drive.google.com/uc?id=1Tsy8dpRnNwN1WDqETqqCHzwLQnRnibTp");opacity:0.5}
+    0%{background-image: url("./assets/new_img/joven-armando.jpg");opacity:1}
+    15%{background-image: url("./assets/new_img/joven-armando.jpg");opacity:0.5}
+    30%{background-image: url("./assets/new_img/comoda.jpeg");opacity:1}
+    45%{background-image: url("./assets/new_img/comoda.jpeg");opacity:0.5}
+    55%{background-image: url("./assets/new_img/centro-1 (2).jpg");opacity:1}
+    70%{background-image: url("./assets/new_img/centro-1 (2).jpg");opacity:0.5}
+    85%{background-image: url("./assets/new_img/escritorio1.jpeg");opacity:1}
+    100%{background-image: url("./assets/new_img/escritorio1.jpeg");opacity:0.5}
 }
 
 .another__img-content {
@@ -188,7 +188,8 @@ a  {
 
 /* ********* Nosotros ********** */
 .about {
-    background-image: url("https://drive.google.com/uc?id=19uLlSU8BIyRhP7OyTq53Idgx9B7Nj-tW");
+    /* background-image: url("https://drive.google.com/uc?id=19uLlSU8BIyRhP7OyTq53Idgx9B7Nj-tW");*/
+    background-image: url("./assets/new_img/dibujo-armado-h.jpg");
     /* background-size: cover; */
     background-attachment: fixed;
     /* width: 100%;
